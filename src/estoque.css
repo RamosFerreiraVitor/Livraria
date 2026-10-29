@@ -1,0 +1,17 @@
+.movement-form {
+  align-items: end;
+}
+
+.movement-form .form-actions {
+  grid-column: 1 / -1;
+}
+
+.movement-history {
+  margin-top: 18px;
+}
+
+@media (max-width: 760px) {
+  .movement-form .form-actions {
+    grid-column: auto;
+  }
+}

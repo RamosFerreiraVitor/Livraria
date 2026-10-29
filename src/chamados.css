@@ -1,0 +1,166 @@
+.click-row {
+  cursor: pointer;
+}
+
+.click-row:focus-within,
+.click-row:focus-visible {
+  outline: 2px solid #087f5b;
+  outline-offset: -2px;
+}
+
+.person {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.person-avatar {
+  width: 27px;
+  height: 27px;
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #e8f7ef;
+  color: #087f5b;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.row-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  color: #9aa79f;
+}
+
+.ticket-id {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #087f5b;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+}
+
+.detail-modal {
+  width: min(100%, 620px);
+}
+
+.detail-modal .modal-header {
+  align-items: flex-start;
+}
+
+.detail-modal .modal-header h3 {
+  margin-bottom: 5px;
+}
+
+.detail-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: -5px 0 18px;
+}
+
+.origin-badge {
+  background: #eef3f0;
+}
+
+.description-box {
+  padding: 14px;
+  border: 1px solid #e6eee9;
+  border-radius: 10px;
+  background: #f8faf8;
+  color: #52635a;
+  font-size: 12px;
+}
+
+.description-box strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #293a30;
+}
+
+.description-box p {
+  margin: 0;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.status-control {
+  max-width: 240px;
+  margin-top: 16px;
+}
+
+.history {
+  margin-top: 22px;
+}
+
+.history h4 {
+  margin: 0 0 12px;
+  color: #293a30;
+  font-size: 13px;
+}
+
+.history-item {
+  display: flex;
+  gap: 10px;
+  padding: 0 0 14px;
+}
+
+.history-dot {
+  width: 8px;
+  height: 8px;
+  margin-top: 5px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #0c9a6d;
+  box-shadow: 0 0 0 4px #e8f7ef;
+}
+
+.history-item p {
+  margin: 0;
+  color: #52635a;
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.history-item small {
+  display: block;
+  margin-top: 4px;
+  color: #96a19a;
+  font-size: 10px;
+}
+
+.followup-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 17px;
+  padding-top: 17px;
+  border-top: 1px solid #edf1ee;
+}
+
+.followup-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #52635a;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.followup-form textarea {
+  width: 100%;
+  min-height: 70px;
+  padding: 10px;
+  border: 1px solid #dfe8e2;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 12px;
+}
+
+.followup-form .primary-btn {
+  justify-self: start;
+}

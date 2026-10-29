@@ -1,0 +1,32 @@
+.new-module .page-intro {
+  margin-top: 27px;
+}
+
+.new-module-modal {
+  width: min(100%, 520px);
+}
+
+.new-module-form {
+  display: grid;
+  gap: 14px;
+}
+
+.new-module-form .form-grid {
+  margin: 0;
+}
+
+.new-module .data-table select {
+  max-width: 150px;
+}
+
+.availability.indisponível,
+.availability.indisponivel {
+  background: #fff0ee;
+  color: #b53d36;
+}
+
+@media (max-width: 600px) {
+  .new-module .page-intro h2 {
+    font-size: 20px;
+  }
+}
